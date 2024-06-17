@@ -1,0 +1,313 @@
+@font-face {
+	font-family: 'PT'; 
+	src: url(PT.ttf); 
+}
+
+a {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+input {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+select {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+button {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+body {
+    margin: 0;
+    font-family: 'PT'; 
+}
+._header ._head {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+._header ._head ._content {
+    display: flex;
+    align-items: center;
+    width: 940px;
+}
+._header ._head ._content ._text {
+    display: grid;
+    color: white;
+}
+
+._nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid;
+    border-color: #6E8FAB;
+}
+._nav ._content {
+    display: flex;
+    width: 940px;
+}
+._nav ._content ._nv {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #6E8FAB;
+    padding: 20px 40px;
+    color: #6E8FAB;
+}
+._main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+._main ._content {
+    display: grid;
+    width: 940px;
+    gap: 10px;
+}
+
+._main ._content ._htext {
+    font-size: 18px;
+}
+
+._main ._content ._block {
+    display: grid;
+    background: #E6EEF6;
+    padding: 25px;
+    gap: 25px;
+}
+._block ._inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+._block ._inputs ._input_block {
+    display: grid;
+    gap: 10px;
+    font-size: 18px;
+
+}
+
+._block ._inputs ._input_block ._input {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.2) inset;
+    border: 0.005px solid;
+    border-color: gray;
+}
+
+._block ._inputs ._input_block ._input:focus {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(37, 120, 183, 0.2);
+    border: 0.005px solid;
+    border-color: #2578B7;
+}
+
+._main ._content ._block_table {
+    display: grid;
+    font-size: 24px;
+}
+._main ._content ._block_table ._b {
+    margin-top: 10px;
+    height: 5px;
+    width: auto;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(57,126,179,1) 100%);
+}
+._main ._content ._block_table ._table {
+    font-size: 16px;
+    background: #E8EEF5;
+    overflow: scroll;
+}
+._main ._content ._block_table ._table th,td {
+    padding: 25px;
+}
+
+._footer {
+    display: grid;
+    margin-top: 10px;
+}
+
+._footer ._h-footer {
+    background: #E6EEF6;
+    display: flex;
+    justify-content: center;
+}
+
+._footer ._h-footer ._content {
+    width: 940px;
+    display: flex;
+    padding: 25px;
+    align-items: flex-start;
+}
+
+._footer ._h-footer ._content ._col {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+._footer ._h-footer ._content ._col ._a {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #2A3C49;
+}
+._footer ._h-footer ._content ._col ._b {
+    font-size: 18px;
+    color: #2A3C49;
+}
+._footer ._h-footer ._content ._col ._href {
+    font-size: 18px;
+    color: #399BCB;
+    width: fit-content;
+}
+
+._footer ._d-footer {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+._footer ._d-footer ._content {
+    width: 940px;
+    display: flex;
+    font-size: 16px;
+    color: #A5B8D1;
+}
+
+._footer ._d-footer ._content ._col {
+    width: 100%;
+    display: grid;
+    gap:10px;
+}
+
+._footer ._d-footer ._content ._col a {
+    color: white;
+}
+
+._btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+}
+._btn-blue {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    color: white;
+}
+
+._btn-red {
+    background: rgb(232,68,70);
+    background: linear-gradient(180deg, rgba(232,68,70,1) 0%, rgba(171,37,45,1) 100%);
+    color: white;
+}
+
+/* DROPBUTTON */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+tr{
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 9999;
+    min-width: 300px;
+}
+
+.modal-content {
+
+}
+
+.modal-close {
+    /* position: absolute;
+    top: 5px;
+    right: 10px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal-title {
+    color: #6E8FAB;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
